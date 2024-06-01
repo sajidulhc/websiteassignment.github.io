@@ -1,0 +1,82 @@
+<html>
+<head>
+<title>Webpage Assignment</title>
+<style>
+#defaultBlock { 
+  display: table;
+}
+div {
+  float:left;
+  height: 560px;
+  width: 485px;
+  padding: 10px;
+}
+#block1 {
+  background-color: #f7b0cb;
+}
+#block2 {
+  background-color: #fa6da3;
+  width: 485px;
+}
+#block3 {
+  background-color: #f7b0cb;
+  width: 485px;
+}
+h2 {
+  text-align: center;
+}
+.bottom-link {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 40px;
+  background-color: darkpink;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: rose;
+}
+.center-link {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.left-link {
+  left: 100px;
+  margin-bottom: 10px; /* Add space between links */
+}
+body {
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+main {
+  flex: 1;
+}
+</style>
+</head>
+<body>
+<body background="htmldesign3.JPG" width>
+
+<main id="defaultBlock">
+  <h2>Sajidul's Webpage</h2>
+  <div id="block1">
+    <h2>Spotify Playlist: </h2>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7nBjRLkzw2PToZl8pB5U55?utm_source=generator" width="100%" height="460" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </div>
+  <div id="block2">
+    <h2>My Pinterest: </h2>
+    <a data-pin-do="embedUser" href="https://www.pinterest.com/sajid_ul_/"></a>
+    <script async defer src="https://assets.pinterest.com/js/pinit.js"></script>
+  </div>
+  <div id="block3"> 
+    <h2>Welcome Flowers: </h2>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.js"></script>
+    <script src="sketch.js"></script>
+  </div>
+</main>
+<a href="https://sajidulhc.github.io/" class="bottom-link center-link">Visit My Other WebPage</a>
+<a href="https://www.youtube.com/?bp=wgUCEAE%3D" class="bottom-link left-link">Youtube</a>
+</body>
+</html>
